@@ -87,16 +87,27 @@ Currently, the package has two exported functions:
   optionally [Github container registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry)
   directly from `R`.
 
-ToDo: maybe illustrate functions an example run.
-link to GH pacge of the package. I avoided naming the `makeSimpleBiocContainer`
-function for now, should this be explicitly mentioned or is it better not to 
-be too detailed in case things change in the near future.
+Here is a simple example to illustrate its use:
 
+```
+library(SimpleBiocContainer)
+
+container_path <- makeSimpleBiocContainer(
+  package = "MsCoreUtils",
+  container = "my_container",
+  data = "data.rda",
+  script = "script.R")
+
+buildPushDocker(
+  container = container_path,
+  dockerUsername = "docker_username")
+```
 
 # Conclusions / Future Work
 
-get list of R packages loaded in session to create a container for those.
-add vignettes, further enhacncements.
+The current version of the package covers all features that we wanted to include,
+but represents a simple first implementation that may require further refinement
+in the future.
 
 # Acknowledgements
 
