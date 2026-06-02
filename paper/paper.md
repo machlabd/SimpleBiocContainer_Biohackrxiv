@@ -31,7 +31,7 @@ affiliations:
     index: 3
   - name: Friedrich Miescher Institute for Biomedical Research, Basel, Switzerland
     index: 4
-  - name:
+  - name: Information Technology, Åbo Akademi University, Turku, Finland
     index: 5 
 date: 2 June 2026
 cito-bibliography: paper.bib
@@ -44,23 +44,26 @@ group: ContainerGroup
 git_url: https://github.com/machlabd/SimpleBiocContainer_Biohackrxiv
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
+authors_short: Laurent Gatto \emph{et al.}
 ---
 
 
 # Introduction
 
-
 Containers enhance reproducibility and additionally offer a convenient way to 
-share the setup used and needed to run a script. Currently, there is no 
-convenient way to create Docker files and containers from R while also 
-controlling for the bioconductor release. 
+share the setup used and needed to run a script. Offering a way to create
+containers which contain desired `R` packages from within `R` allows users to 
+more easily create these containers and work with them. `R` packages like
+`dockerfiler` offer functions to create and work with Docker files within `R`.
+However, currently there is no convenient way to create Docker files and 
+containers from `R` while also controlling for the bioconductor release. The
+aim in this hackathon was to create a minimal set of functions that offer this
+possibility, and this work eventually gave rise to the R/Bioconductor package 
+`SimpleBiocContainer`.
 
-ToDo: mention + cite dockerfiler somehow
 
 
-
-# R/Bioconductor package SimpleBiocContainer
+# R/Bioconductor package `SimpleBiocContainer`
 
 As part of the European Bioconductor Hackathon 2026, we created an 
 R/Bioconductor package called `SimpleBiocContainer` which offers a more user 
