@@ -54,9 +54,9 @@ Containers enhance reproducibility and additionally offer a convenient way to
 share the setup used and needed to run a script. Offering a way to create
 containers which contain desired `R` packages from within `R` allows users to 
 more easily create these containers and work with them. `R` packages like
-`dockerfiler` offer functions to create and work with Docker files within `R`.
-However, currently there is no convenient way to create Docker files and 
-containers from `R` while also controlling for the bioconductor release. The
+dockerfiler @dockerfilerCRAN offer functions to create and work with Docker
+files within `R`. However, currently there is no convenient way to create Docker
+files and containers from `R` while also controlling for the bioconductor release. The
 aim in this hackathon was to create a minimal set of functions that offer this
 possibility, and this work eventually gave rise to the R/Bioconductor package 
 `SimpleBiocContainer`.
