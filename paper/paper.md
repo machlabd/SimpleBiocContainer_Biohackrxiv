@@ -39,6 +39,7 @@ event: Eurobioc 2026
 biohackathon_name: "Eurobioc 2026"
 biohackathon_url: "https://bioconductor.org/developers/bioccommits/"
 biohackathon_location: "Turku, Finland 2026"
+group: ContainerGroup
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/machlabd/SimpleBiocContainer_Biohackrxiv
 # This is the short authors description that is used at the
