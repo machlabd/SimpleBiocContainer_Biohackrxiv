@@ -104,4 +104,5 @@ We thank all participants of the European Bioconductor Hackathon 2026 for
 the discussions. We also thank Nicholas Cooley and the organizing committee 
 of the EuroBioC2026 conference for organizing this event.
 
+# References
 
