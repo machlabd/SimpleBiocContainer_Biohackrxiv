@@ -61,26 +61,33 @@ aim in this hackathon was to create a minimal set of functions that offer this
 possibility, and this work eventually gave rise to the R/Bioconductor package 
 `SimpleBiocContainer`.
 
-
-
-# R/Bioconductor package `SimpleBiocContainer`
+# R package `SimpleBiocContainer`
 
 As part of the European Bioconductor Hackathon 2026, we created an 
-R/Bioconductor package called `SimpleBiocContainer` which offers a more user 
+R package called `SimpleBiocContainer` which offers a more user 
 friendly way to create, build and push Docker containers to 
 [Dockerhub](https://hub.docker.com/) from R. A working 
 version of the package can be found on GitHub: 
 (https://github.com/lgatto/SimpleBiocContainer.git).
 
 The functions in `SimpleBiocContainer` make use of the existing 
-Bioconductor docker containers which already contain a few packages, and 
-additionally add the user-specified Bioconductor/R packages using 
-`BiocManager::install()`. The Bioconductor version is inferred from the R 
-session and the corresponding docker container matching that release is then 
-used. 
+Bioconductor docker containers (see this [link](https://www.bioconductor.org/help/docker/)
+for more details), which already contain system dependencies and a few
+basic packages. On top of that, we add the user-specified Bioconductor/R packages
+using  `BiocManager::install()`. The Bioconductor version, and thus the corresonding
+docker container, is automatically determined from the R session. 
 
+Currently, the package has two exported functions:
 
-ToDo: describe the functions and what they do, maybe illustrate an example run.
+- [makeSimpleBiocContainer](https://lgatto.github.io/SimpleBiocContainer/reference/makeSimpleBiocContainer.html)
+  creates a container directory and populates it with a Dockerfile and optional
+  data and script directories.
+- [buildPushDocker](https://lgatto.github.io/SimpleBiocContainer/reference/buildPushDocker.html)
+  builds and pushes the container to [Dockerhub](https://hub.docker.com/) or
+  optionally [Github container registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry)
+  directly from `R`.
+
+ToDo: maybe illustrate functions an example run.
 link to GH pacge of the package. I avoided naming the `makeSimpleBiocContainer`
 function for now, should this be explicitly mentioned or is it better not to 
 be too detailed in case things change in the near future.
