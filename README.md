@@ -9,5 +9,5 @@ in the `SimpleBiocContainer` `R` package.
 
 ## `SimpleBiocContainer` package
 
-The `SimpleBiocContainer` can be found here: [](github.com/lgatto/SimpleBiocContainer).
+The `SimpleBiocContainer` can be found here: (https://github.com/lgatto/SimpleBiocContainer.git).
 
