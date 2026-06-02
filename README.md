@@ -7,7 +7,7 @@ by the group working on creating containers from `R` during the hackathon at
 the European Bioconductor Conference 2026 in Turku, Finland, and which resulted 
 in the `SimpleBiocContainer` `R` package. 
 
-# `SimpleBiocContainer` package
+## `SimpleBiocContainer` package
 
-The `SimpleBiocContainer` can be found here: (github.com/lgatto/SimpleBiocContainer).
+The `SimpleBiocContainer` can be found here: [github.com/lgatto/SimpleBiocContainer].
 
