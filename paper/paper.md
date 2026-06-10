@@ -67,7 +67,7 @@ R package called `SimpleBiocContainer` which offers a more user
 friendly way to create, build and push Docker containers to 
 [Dockerhub](https://hub.docker.com/) from R. A working 
 version of the package can be found on GitHub: 
-(https://github.com/lgatto/SimpleBiocContainer.git).
+<https://github.com/lgatto/SimpleBiocContainer.git>.
 
 The functions in `SimpleBiocContainer` make use of the existing 
 Bioconductor docker containers (see this [link](https://www.bioconductor.org/help/docker/)
