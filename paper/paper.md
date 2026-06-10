@@ -13,25 +13,24 @@ authors:
   - name: Dania Machlab
     orcid: 0000-0002-2578-6930
     affiliation: 2
+  - name: Ata Badr Barzegar
+    affiliation: 3
   - name: João F. Carrilho
     orcid: 0009-0002-2265-8922
-    affiliation: 3
+    affiliation: 4
   - name: Michael B. Stadler
     orcid: 0000-0002-2269-4934
-    affiliation: 4
-  - name: Ata Badr Barzegar
-    orcid: Information Technology, Åbo Akademi University, Turku, Finland
     affiliation: 5
 affiliations:
   - name: Computational Biology and Bioinformatics, de Duve Institute, UCLouvain, Belgium
     index: 1
   - name: Dept of Biochemistry and Biophysics, National Bioinformatics Infrastructure Sweden, Science for Life Laboratory, Stockholm University, Box 1031, SE-17121 Solna, Sweden
     index: 2
-  - name: Center for Mathematics and Applications (NOVA Math), NOVA School of Science and Technology (NOVA FCT), Caparica, Portugal
-    index: 3
-  - name: Friedrich Miescher Institute for Biomedical Research, Basel, Switzerland
-    index: 4
   - name: Information Technology, Åbo Akademi University, Turku, Finland
+    index: 3
+  - name: Center for Mathematics and Applications (NOVA Math), NOVA School of Science and Technology (NOVA FCT), Caparica, Portugal
+    index: 4
+  - name: Friedrich Miescher Institute for Biomedical Research, Basel, Switzerland
     index: 5 
 date: 2 June 2026
 cito-bibliography: paper.bib
