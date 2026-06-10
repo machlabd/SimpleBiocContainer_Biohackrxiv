@@ -57,7 +57,7 @@ dockerfiler @dockerfilerCRAN offer functions to create and work with Docker
 files within `R`. However, currently there is no convenient way to create Docker
 files and containers from `R` while also controlling for the bioconductor release. The
 aim in this hackathon was to create a minimal set of functions that offer this
-possibility, and this work eventually gave rise to the R/Bioconductor package 
+possibility, and this work eventually gave rise to the R package 
 `SimpleBiocContainer`.
 
 # R package `SimpleBiocContainer`
