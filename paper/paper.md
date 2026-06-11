@@ -10,17 +10,22 @@ authors:
   - name: Laurent Gatto
     orcid: 0000-0002-1520-2268
     affiliation: 1
+    role: Conceptualization, Software, Writing – review & editing
   - name: Dania Machlab
     orcid: 0000-0002-2578-6930
     affiliation: 2
+    role: Conceptualization, Software, Writing – original draft
   - name: Ata Badr Barzegar
     affiliation: 3
+    role: Conceptualization, Software
   - name: João F. Carrilho
     orcid: 0009-0002-2265-8922
     affiliation: 4
+    role: Conceptualization, Software
   - name: Michael B. Stadler
     orcid: 0000-0002-2269-4934
     affiliation: 5
+    role: Conceptualization, Software, Writing – review & editing
 affiliations:
   - name: Computational Biology and Bioinformatics, de Duve Institute, UCLouvain, Belgium
     index: 1
