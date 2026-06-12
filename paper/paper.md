@@ -48,7 +48,7 @@ group: ContainerGroup
 git_url: https://github.com/machlabd/SimpleBiocContainer_Biohackrxiv
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: Laurent Gatto \emph{et al.}
+authors_short: Dania Machlab \emph{et al.}
 ---
 
 
